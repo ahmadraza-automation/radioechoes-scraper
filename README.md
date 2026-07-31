@@ -4,6 +4,23 @@ Fast Playwright scraper for [RadioEchoes.com](https://www.radioechoes.com).
 
 Scrapes all series + episodes (name, genre, broadcast date, length, play/download links, file size) into Excel with resume support.
 
+## Screenshots
+
+### Scraper Running
+![Running](screenshots/01_running.svg)
+
+### Chrome — Series Page
+![Chrome](screenshots/02_chrome.svg)
+
+### Excel Output
+![Excel](screenshots/03_excel.svg)
+
+## Sample Output
+
+See [`sample_output/sample_radioechoes.csv`](sample_output/sample_radioechoes.csv) for example data.
+
+After a full run, real data is saved to `output/radioechoes.xlsx`.
+
 ## Features
 
 - Concurrent scraping (4 pages at once)

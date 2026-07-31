@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+  <rect width="900" height="520" fill="#1e1e28"/>
+  <rect width="900" height="48" fill="#14141c"/>
+  <circle cx="22" cy="24" r="7" fill="#ff5f57"/>
+  <circle cx="44" cy="24" r="7" fill="#ffbd2e"/>
+  <circle cx="66" cy="24" r="7" fill="#28c840"/>
+  <text x="90" y="32" fill="#dcdce6" font-family="monospace" font-size="18" font-weight="bold">Excel Output — radioechoes.xlsx</text>
+  <text x="40" y="95" fill="#88aacc" font-family="monospace" font-size="13">Series Name       Episode Name                    Genre     Date         Length   Size</text>
+  <text x="40" y="120" fill="#555566" font-family="monospace" font-size="12">-----------------------------------------------------------------------------------------</text>
+  <text x="40" y="150" fill="#c8c8d2" font-family="monospace" font-size="13">The House         Series 1 Episode 1 - Fallout    Drama     1989.08.19   29:11    6.69 MB</text>
+  <text x="40" y="180" fill="#c8c8d2" font-family="monospace" font-size="13">The House         Series 1 Episode 2 - Clashes    Drama     1989.08.26   29:07    6.68 MB</text>
+  <text x="40" y="210" fill="#c8c8d2" font-family="monospace" font-size="13">15 Storeys High   The Entry Phone                 Comedy    1999.11.24   28:04    6.44 MB</text>
+  <text x="40" y="240" fill="#c8c8d2" font-family="monospace" font-size="13">Earthsearch 2     Part 01 Return                  SciFi     1982.04.25   26:55    6.18 MB</text>
+  <text x="40" y="270" fill="#c8c8d2" font-family="monospace" font-size="13">P Division        Condition Purple - Ep One       Detective 1990.09.06   28:47    6.6 MB</text>
+  <text x="40" y="320" fill="#00b478" font-family="monospace" font-size="14">&gt; output/radioechoes.xlsx  —  resume supported</text>
+  <rect y="484" width="900" height="36" fill="#14141c"/>
+  <text x="40" y="506" fill="#787882" font-family="monospace" font-size="12">RadioEchoes Scraper  |  Dummy Screenshot</text>
+</svg>

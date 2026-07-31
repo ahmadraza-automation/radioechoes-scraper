@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+  <rect width="900" height="520" fill="#1e1e28"/>
+  <rect width="900" height="48" fill="#14141c"/>
+  <circle cx="22" cy="24" r="7" fill="#ff5f57"/>
+  <circle cx="44" cy="24" r="7" fill="#ffbd2e"/>
+  <circle cx="66" cy="24" r="7" fill="#28c840"/>
+  <text x="90" y="32" fill="#dcdce6" font-family="monospace" font-size="18" font-weight="bold">Chrome — Series Page</text>
+  <text x="40" y="90" fill="#c8c8d2" font-family="monospace" font-size="15">RadioEchoes.com  |  Series: The House</text>
+  <text x="40" y="125" fill="#c8c8d2" font-family="monospace" font-size="15">Genre: Drama</text>
+  <text x="40" y="155" fill="#c8c8d2" font-family="monospace" font-size="15">Episodes: 41</text>
+  <text x="40" y="200" fill="#e0e0e0" font-family="monospace" font-size="15">Series 1 Episode 1 - Fallout</text>
+  <text x="40" y="230" fill="#a0a0b0" font-family="monospace" font-size="13">  Original Broadcast Date: 1989.08.19</text>
+  <text x="40" y="255" fill="#00b478" font-family="monospace" font-size="13">  Play Episode - Length: 29:11</text>
+  <text x="40" y="280" fill="#00b478" font-family="monospace" font-size="13">  Download Episode - File Size: 6.69 MB</text>
+  <text x="40" y="320" fill="#e0e0e0" font-family="monospace" font-size="15">Series 1 Episode 2 - Clashes</text>
+  <text x="40" y="350" fill="#a0a0b0" font-family="monospace" font-size="13">  Original Broadcast Date: 1989.08.26</text>
+  <text x="40" y="375" fill="#00b478" font-family="monospace" font-size="13">  Play Episode - Length: 29:07</text>
+  <rect y="484" width="900" height="36" fill="#14141c"/>
+  <text x="40" y="506" fill="#787882" font-family="monospace" font-size="12">RadioEchoes Scraper  |  Dummy Screenshot</text>
+</svg>
