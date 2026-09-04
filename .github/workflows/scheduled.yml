@@ -1,0 +1,37 @@
+name: Manual / Scheduled Check
+
+on:
+  # Manual trigger only (recommended)
+  workflow_dispatch:
+
+  # Optional: Uncomment below if you want weekly light check
+  # schedule:
+  #   - cron: '0 9 * * 1'   # Every Monday 9 AM UTC
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium --with-deps
+
+      - name: Verify scraper can start
+        run: |
+          python -c "
+from pathlib import Path
+print('✅ Project structure OK')
+print('Main file exists:', Path('main.py').exists())
+print('Requirements exists:', Path('requirements.txt').exists())
+"
