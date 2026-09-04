@@ -1,61 +1,82 @@
 # RadioEchoes Scraper
 
-Fast Playwright scraper for [RadioEchoes.com](https://www.radioechoes.com).
+**Fast concurrent Playwright scraper** for [RadioEchoes.com](https://www.radioechoes.com) — extracts classic radio series & episodes into clean Excel/CSV with full resume support.
 
-Scrapes all series + episodes (name, genre, broadcast date, length, play/download links, file size) into Excel with resume support.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Playwright](https://img.shields.io/badge/Playwright-Async-green?logo=playwright)](https://playwright.dev/python/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/ahmadraza-automation/radioechoes-scraper?style=social)](https://github.com/ahmadraza-automation/radioechoes-scraper)
 
-## Screenshots
+---
 
-### Scraper Running
-![Running](screenshots/01_running.svg)
+### Features
 
-### Chrome — Series Page
-![Chrome](screenshots/02_chrome.svg)
+| Feature | Description |
+|---------|-------------|
+| **Concurrent Scraping** | Scrape multiple series in parallel (configurable workers) |
+| **Full Resume Support** | Stop anytime and continue later — progress is saved |
+| **Clean Excel & CSV** | Structured output with Series, Episode, Genre, Date, Length, Links & File Size |
+| **Headless Mode** | Run without opening browser window for maximum speed |
+| **Detailed Logging** | Full run logs saved automatically |
 
-### Excel Output
-![Excel](screenshots/03_excel.svg)
+---
 
-## Sample Output
-
-See [`sample_output/sample_radioechoes.csv`](sample_output/sample_radioechoes.csv) for example data.
-
-After a full run, real data is saved to `output/radioechoes.xlsx`.
-
-## Features
-
-- Concurrent scraping (4 pages at once)
-- Resume support (skips already completed series)
-- Excel output (`output/radioechoes.xlsx`)
-- Logging (`logs/scraper.log`)
-- Visible or headless Chrome
-
-## Install
+### Quick Start
 
 ```bash
+# 1. Clone the repo
+git clone https://github.com/ahmadraza-automation/radioechoes-scraper.git
+cd radioechoes-scraper
+
+# 2. Install dependencies
 pip install -r requirements.txt
 playwright install chromium
-```
 
-## Run
-
-```bash
+# 3. Run the scraper
 python main.py
 ```
 
-## Config (`main.py`)
+---
+
+### Configuration
+
+Edit these values at the top of `main.py`:
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| `HEADLESS` | `False` | `True` = no browser window (faster) |
-| `CONCURRENCY` | `4` | Parallel series (3–6 recommended) |
-| `TIMEOUT` | `45000` | Page timeout in ms |
+| `HEADLESS` | `True` | `True` = faster (no browser window) |
+| `CONCURRENCY` | `6` | How many series to scrape at once (4-8 recommended) |
+| `TIMEOUT` | `45000` | Page load timeout in milliseconds |
 
-## Output
+---
 
-- `output/radioechoes.xlsx` — all scraped data
-- `state/resume.json` — completed / failed series
-- `logs/scraper.log` — run log
+### Output
 
-## Author
+After running, you will get:
 
-[Ahmad Raza](https://github.com/ahmadraza-automation) — Python Automation Engineer
+- `output/radioechoes.xlsx` → Main data file
+- `state/resume.json` → Progress tracking (for resume)
+- `logs/scraper.log` → Detailed logs
+
+---
+
+### Sample Data
+
+A small sample is available in [`sample_output/`](sample_output/).
+
+---
+
+### Author
+
+**Ahmad Raza** — Python Automation Engineer  
+[GitHub](https://github.com/ahmadraza-automation) • [Portfolio](https://ahmadraza-automation.github.io/Ahmad-Raza-Automation-Portfolio/)
+
+---
+
+### Support the Project
+
+If this project helped you or you found it useful, please consider giving it a **star**. It really helps!
+
+```
+⭐ Star this repository
+```
