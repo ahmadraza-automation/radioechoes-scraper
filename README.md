@@ -69,7 +69,11 @@ A small sample is available in [`sample_output/`](sample_output/).
 ### Author
 
 **Ahmad Raza** — Python Automation Engineer  
-[GitHub](https://github.com/ahmadraza-automation) • [Portfolio](https://ahmadraza-automation.github.io/Ahmad-Raza-Automation-Portfolio/)
+
+- GitHub: [ahmadraza-automation](https://github.com/ahmadraza-automation)
+- LinkedIn: [Ahmad Raza](https://www.linkedin.com/in/ahmad-raza-67462b413)
+- Portfolio: [Live Portfolio](https://ahmadraza-automation.github.io/Ahmad-Raza-Automation-Portfolio/)
+- Email: arjafri347@gmail.com
 
 ---
 
